@@ -9,7 +9,6 @@ can be measured with a reasonable degree of precision. By predicting the CLV, bu
 To develop a model that can:
 
 • Distinguish active customers from inactive customers.
-
 • Generate transaction forecasts for individual customers.
 
 • Predict the purchase volume of the entire customer base.
