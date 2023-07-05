@@ -14,7 +14,10 @@ To develop a model that can:
 
 ### Methods:
 • RFM Matrix: Recency, Frequency, Monetary value matrix based on the transaction log.
+
 • Define a calibration and holdout period to split data.
+
 • Training model: Modified Beta Geometric/Negative Binomial Distribution (MBG/NBD) model using the lifetimes package. It fits the model to the columns of the feature set.
+
 • Using Gamma Gamma model, estimate the CLV (calculates predicted purchases for each customer and assigns a probability of being alive based on the MBG/NBD model).
 
